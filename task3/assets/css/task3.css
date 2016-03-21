@@ -1,0 +1,45 @@
+body{
+	padding: 0px
+	margin:0;
+}
+.content,.left,.center,.right{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+}
+.content{
+	min-height: 460px;
+	min-width: 400px;
+}
+.left{
+	float: left;
+	width: 160px;
+	background-color: white;
+	position: relative;
+}
+.left img{
+	width: 80px;
+	height: 80px;
+}
+ #right_text{
+	top: 20px;
+	left: 120px;
+	position: absolute;
+}
+.right{
+	float: right;
+	width: 80px;
+	height: 420px;
+	background-color: white;
+	position: relative;
+}
+.center{
+    margin: 0 140px 0 220px;
+	background-color: white;
+}
+.right img{
+	margin-bottom:20px;
+	width: 80px;
+	height: 80px;
+}
+.clearfix{clear: both;}
